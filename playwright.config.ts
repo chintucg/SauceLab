@@ -31,7 +31,7 @@ export default defineConfig({
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: 'https://www.saucedemo.com',
 
-    headless: false,
+    headless: true,
     actionTimeout: 0,
     navigationTimeout: 0,
 
